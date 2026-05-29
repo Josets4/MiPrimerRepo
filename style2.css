@@ -1,0 +1,85 @@
+/* Configuración General */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Barra superior delgada (color oscuro) */
+.main-header {
+    border-top: 4px solid #3d2b3d; /* El tono oscuro de la parte superior */
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* Estilo del Logo */
+.logo a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1a3a8a; /* Azul característico */
+    font-style: italic;
+    line-height: 1;
+}
+
+.brand-sub {
+    font-size: 10px;
+    letter-spacing: 5px;
+    color: #333;
+    border-top: 1px solid #333;
+    margin-top: 2px;
+    padding-top: 2px;
+}
+
+/* Menú de Navegación */
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu ul li a, .language-selector a {
+    text-decoration: none;
+    color: #1a3a8a;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul li a:hover {
+    color: #1a3a8a;
+}
+
+/* Iconos de flecha (simulados con bordes) */
+.arrow-down {
+    display: inline-block;
+    margin-left: 5px;
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #555;
+}
+
+/* Idioma (derecha) */
+.language-selector {
+    margin-left: 50px;
+}

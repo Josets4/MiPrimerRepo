@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Delice Recetas</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="main-header">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#">
+                    <span class="brand-name">Delice</span>
+                    <span class="brand-sub">ALIMENTOS</span>
+                </a>
+            </div>
+
+            <!-- Navegación Principal -->
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#">PRODUCTOS <i class="arrow-down"></i></a></li>
+                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="#">LABORATORIO</a></li>
+                    <li><a href="#">RECETAS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+
+            <!-- Selector de Idioma -->
+            <div class="language-selector">
+                
+                <button id="modoOscuro">
+            🌙 Modo Oscuro
+        </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- BUSCADOR -->
+
+    <section class="busqueda">
+
+        <input type="text"
+            id="buscar"
+            placeholder="Buscar receta...">
+
+    </section>
+
+    <!-- FILTROS -->
+
+    <section class="filtros">
+  <button class="filtro" data-categoria="todos">
+    <img src="iconos/casa.png" alt="Icono Todos" width="20" height="20">
+    Todos
+  </button>
+
+  <button class="filtro" data-categoria="pizza">
+    <img src="iconos/pizza.png" alt="Icono Pizza" width="20" height="20">
+    Pizza
+  </button>
+
+  <button class="filtro" data-categoria="postre">
+    <img src="iconos/postre.png" alt="Icono Postre" width="20" height="20">
+    Postres
+  </button>
+
+  <button class="filtro" data-categoria="queso">
+    <img src="iconos/queso.png" alt="Icono Queso" width="20" height="20">
+    Quesos
+  </button>
+
+  
+</section>
+
+    <!-- RECETAS -->
+
+    <section class="contenedor-recetas"
+        id="recetas">
+
+        <!-- RECETA 1 -->
+
+        <div class="tarjeta"
+            data-categoria="pizza">
+
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200">
+
+            <h2>Pizza Especial</h2>
+
+            <p>
+                Pizza preparada con queso mozzarella Delice.
+            </p>
+
+            <div class="receta">
+
+                <h3>Ingredientes</h3>
+
+                <ul>
+                    <li>Masa para pizza</li>
+                    <li>Queso mozzarella</li>
+                    <li>Salsa de tomate</li>
+                    <li>Pepperoni</li>
+                </ul>
+
+                <h3>Preparación</h3>
+
+                <p>
+                  <a href="preparacion.html">
+                    ver mas...
+
+                </a>  
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- RECETA 2 -->
+
+        <div class="tarjeta"
+            data-categoria="postre">
+
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=1200">
+
+            <h2>Cheesecake</h2>
+
+            <p>
+                Postre elaborado con queso crema Delice.
+            </p>
+
+            <div class="receta">
+
+                <h3>Ingredientes</h3>
+
+                <ul>
+                    <li>Queso crema</li>
+                    <li>Galletas</li>
+                    <li>Mantequilla</li>
+                    <li>Azúcar</li>
+                </ul>
+
+                <h3>Preparación</h3>
+
+                <p>
+                    Preparar la base de galleta,
+                    agregar la mezcla de queso
+                    y refrigerar.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- RECETA 3 -->
+
+        <div class="tarjeta"
+            data-categoria="queso">
+
+            <img src="https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=1200">
+
+            <h2>Tabla Gourmet</h2>
+
+            <p>
+                Selección especial de quesos Delice.
+            </p>
+
+            <div class="receta">
+
+                <h3>Ingredientes</h3>
+
+                <ul>
+                    <li>Queso parmesano</li>
+                    <li>Queso mozzarella</li>
+                    <li>Frutas</li>
+                    <li>Galletas saladas</li>
+                </ul>
+
+                <h3>Preparación</h3>
+
+                <p>
+                    Organizar todos los ingredientes
+                    en una tabla decorativa y servir.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- RECETA 4 -->
+
+        <div class="tarjeta"
+            data-categoria="pizza">
+
+            <img src="https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?q=80&w=1200">
+
+            <h2>Pizza Familiar</h2>
+
+            <p>
+                Pizza familiar preparada con queso premium.
+            </p>
+
+            <div class="receta">
+
+                <h3>Ingredientes</h3>
+
+                <ul>
+                    <li>Masa familiar</li>
+                    <li>Queso mozzarella</li>
+                    <li>Jamón</li>
+                    <li>Aceitunas</li>
+                </ul>
+
+                <h3>Preparación</h3>
+
+                <p>
+                    Preparar la pizza y hornear
+                    hasta que el queso quede gratinado.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUCTOS -->
+
+    <section id="productos"
+        class="productos">
+
+        <h2>Productos Delice</h2>
+
+        <div class="contenedor-productos">
+
+            <!-- PRODUCTO 1 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1552767059-ce182ead6c1b?q=80&w=1200">
+
+                <h3>Queso Mozzarella</h3>
+
+            </div>
+
+            <!-- PRODUCTO 2 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1628088062854-d1870b4553da?q=80&w=1200">
+
+                <h3>Queso Parmesano</h3>
+
+            </div>
+
+            <!-- PRODUCTO 3 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1634141510639-d691d86f47be?q=80&w=1200">
+
+                <h3>Queso Crema</h3>
+
+            </div>
+
+            <!-- PRODUCTO 4 -->
+
+            <div class="producto">
+
+                <img src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=1200">
+
+                <h3>Tabla Gourmet</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACTO -->
+
+    <section id="contacto"
+        class="info">
+
+        <h2>Contacto</h2>
+
+        <div class="contacto-contenedor">
+
+            <!-- WHATSAPP -->
+
+            <div class="contacto-card">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+
+                <h3>WhatsApp</h3>
+
+                <p>
+                    +51 965 241 625
+                </p>
+
+            </div>
+
+            <!-- QR -->
+
+            <div class="contacto-card">
+
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://wa.me/51965241625">
+
+                <h3>Escanea el QR</h3>
+
+                <p>
+                    Contáctanos rápidamente
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
